@@ -51,7 +51,7 @@
             "value": "MUST START FROM, -100=",
             "required": true
     },
-
+    {
   "formation": {
     "worker": {
       "quantity": 1,
@@ -65,5 +65,15 @@
     {
       "url": "heroku/python"
     }
-  ]
-}
+    }
+]
+},
+   "keywords": [
+      "telegram",
+      "group",
+      "manager",
+      "bot"
+   ],
+   "logo": "https://telegra.ph/file/420d2e124afe2384f32e1.jpg",
+   "name": "ʙᴏᴛ",
+   "repository": "https://github.com/Mohan745/GORUP-MANAGER"
