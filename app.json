@@ -1,24 +1,14 @@
 {
-  "name": "Telegram Voice Chat Bot",
-  "description": "Telegram Voice-Chat Bot Written In Python Using Pytgcalls & Pyrogram.",
-  "repository": "https://github.com/Mohan745/Telegram_VC_Bot",
-  "logo": "https://i.imgur.com/8S8NVy0.png",
-  "keywords": [
-    "python",
-    "telegram",
-    "bot",
-    "voicechat",
-    "youtube",
-    "telegram-bot",
-    "pyrogram",
-    "pytgcalls",
-    "tgcalls",
-    "jiosaavn",
-    "telegram-vcbot",
-    "telegram-musicbot"
-  ],
-  "stack": "heroku-20",
-  "env": {
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "description": "VC sᴜᴘᴇʀ  ғᴏʀ  ʏᴏᴜʀ  ɢʀᴏᴜᴘs",
+   "env": {
     "API_ID": {
             "description": "API_ID of your Telegram Account my.telegram.org/apps",
             "required": true
@@ -50,30 +40,24 @@
             "description": "IN WHICH CHAT U WANT TO PLAY PUT ID HERE FOR ID ADD MISSROSEBOT AND PUT /ID.",
             "value": "MUST START FROM, -100=",
             "required": true
-    },
-    {
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
- 
-  "buildpacks": [
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "heroku/python"
-    }
-    }
-]
-},
+
+      }
+   },
    "keywords": [
-      "telegram",
-      "group",
-      "manager",
-      "bot"
-   ],
+    "python",
+    "telegram",
+    "bot",
+    "voicechat",
+    "youtube",
+    "telegram-bot",
+    "pyrogram",
+    "pytgcalls",
+    "tgcalls",
+    "jiosaavn",
+    "telegram-vcbot",
+    "telegram-musicbot"
+  ],
    "logo": "https://telegra.ph/file/420d2e124afe2384f32e1.jpg",
-   "name": "ʙᴏᴛ",
-   "repository": "https://github.com/Mohan745/GORUP-MANAGER"
+   "name": "VC song ʙᴏᴛ",
+   "repository": "https://github.com/Mohan745/Telegram_VC_Bot"
+}
